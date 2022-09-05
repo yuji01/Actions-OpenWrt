@@ -19,4 +19,5 @@
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
-echo 'src-git KyleRicardo https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk' >>feeds.conf.default
+#echo 'src-git KyleRicardo https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk' >>feeds.conf.default
+cd openwrt/ && git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
