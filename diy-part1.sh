@@ -24,5 +24,4 @@ echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.
 # 编译锐捷认证插件
 # 官方源码
 # git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
-
-
+cp $GITHUB_WORKSPACE/mentohust package/mentohust
