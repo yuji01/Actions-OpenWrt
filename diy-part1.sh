@@ -22,8 +22,7 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
 
 # 编译锐捷认证插件
-# 官方源码操作↓
-git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
+# 官方源码
+# git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 
-# lean源码操作↓
-cd package && git clone --depth=1 https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk && cd ../
+
