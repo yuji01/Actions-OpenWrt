@@ -20,10 +20,14 @@ on:
         default: 'false'
 
 env:
+# 官方openwrt源码
+# REPO_URL: https://github.com/openwrt/openwrt
+# REPO_BRANCH: openwrt-22.03
+
+# lean源码
   REPO_URL: https://github.com/coolsnowwolf/lede
-#  REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: master
-#  REPO_BRANCH: openwrt-22.03
+
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
