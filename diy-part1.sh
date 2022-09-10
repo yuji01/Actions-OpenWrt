@@ -25,5 +25,18 @@ echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.
 # 官方源码
 # git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 cp $GITHUB_WORKSPACE/mentohust package/mentohust
+
+cd package
 # 网易云解锁
-git clone --depth=1 https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/UnblockNeteaseMusic
+git clone --depth=1 https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
+
+# Add passwall
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall
+
+# Add OpenClash
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
+
+# Add luci-app-adguardhome
+svn co https://github.com/Boos4721/OpenWrt-Packages/trunk/luci-app-adguardhome
+
