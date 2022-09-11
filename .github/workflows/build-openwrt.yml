@@ -21,12 +21,12 @@ on:
 
 env:
 # 官方openwrt源码
-# REPO_URL: https://github.com/openwrt/openwrt
-# REPO_BRANCH: openwrt-22.03
+  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_BRANCH: openwrt-22.03
 
 # lean源码
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+#  REPO_URL: https://github.com/coolsnowwolf/lede
+#  REPO_BRANCH: master
 
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
