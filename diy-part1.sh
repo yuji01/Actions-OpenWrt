@@ -39,4 +39,5 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 
 # Add luci-app-adguardhome
 svn co https://github.com/Boos4721/OpenWrt-Packages/trunk/luci-app-adguardhome
+cd ../
 
